@@ -1,9 +1,7 @@
-.clearfix:after { 
-   content: "."; 
-   visibility: hidden; 
-   display: block; 
-   height: 0; 
-   clear: both;
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 /**
  * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
@@ -64,13 +62,26 @@ header {
   background-image: url('/images/header_bg.svg');
   background-position: center; 
   background-repeat: no-repeat;
+  text-align: center;
 }
 
-
-#title {
-  display: block;
+header img {
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
+}
+
+#title {
+  margin-top: 5px;
+  margin-left: 67px;
+}
+
+#plus {
+  float:right;
+  width: 20px;
+  margin: 20px;
+  border: 2px solid orange;
+  padding: 5px;
 }
 
 nav {
@@ -82,7 +93,7 @@ nav {
 #main_nav li {
   padding: 3px;
   margin-top: 15px;
-  font-size: 18px;
+  font-size: 17px;
   font-family: 'Oswald', sans-serif;
   display: inline-block;
   text-transform: uppercase;

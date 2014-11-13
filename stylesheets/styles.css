@@ -84,6 +84,10 @@ header img {
   padding: 5px;
 }
 
+#plus:hover {
+  background: orange; 
+}
+
 nav {
   background: #383738;
   height: 50px;
@@ -97,6 +101,10 @@ nav {
   font-family: 'Oswald', sans-serif;
   display: inline-block;
   text-transform: uppercase;
+}
+
+#main_nav li :hover {
+  color: #F54A0A;
 }
 
 #main_nav li:nth-child(2):before {
@@ -164,6 +172,11 @@ p {
   padding-bottom: 45px;
   margin: 20px;
   background-color: #FFF;
+  border: 5px solid transparent;
+}
+
+.video:hover {
+  border: 5px solid orange;
 }
 
 footer {
@@ -178,4 +191,12 @@ footer img {
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
+}
+
+footer img:first-child:hover {
+  content: url('/images/facebook_orange.svg');
+}
+
+footer img:nth-child(2):hover {
+  content: url('/images/instagram_orange.svg');
 }

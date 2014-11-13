@@ -76,7 +76,7 @@ header img {
   margin-left: 67px;
 }
 
-#plus {
+#plus_menu {
   float:right;
   width: 20px;
   margin: 20px;
@@ -84,7 +84,7 @@ header img {
   padding: 5px;
 }
 
-#plus:hover {
+#plus_menu:hover {
   background: orange; 
 }
 
@@ -199,4 +199,18 @@ footer img:first-child:hover {
 
 footer img:nth-child(2):hover {
   content: url('/images/instagram_orange.svg');
+}
+
+/*TABLET*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  #main_content {
+    margin: 0;
+  }
+}
+
+/* MOBILE ONLY */
+@media only screen and (max-width: 480px){
+  #main_content {
+    margin: 0;
+  }
 }

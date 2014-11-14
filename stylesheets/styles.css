@@ -63,6 +63,7 @@ header {
   background-position: center; 
   background-repeat: no-repeat;
   text-align: center;
+  height: 65px;
 }
 
 header img {
@@ -73,15 +74,18 @@ header img {
 
 #title {
   margin-top: 5px;
-  margin-left: 67px;
+  margin-left: 60px;
 }
 
 #plus_menu {
+  color: red;
+  font-size: 50px;
   float:right;
-  width: 20px;
-  margin: 20px;
+  width: 30px;
   border: 2px solid orange;
-  padding: 5px;
+  line-height: 30px;
+  margin-top: 15px;
+  margin-right: 25px;
 }
 
 #plus_menu:hover {
@@ -92,6 +96,8 @@ nav {
   background: #383738;
   height: 50px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #main_nav li {
@@ -125,7 +131,9 @@ nav {
 }
 
 #main_content {
-  margin: 0 400px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #main_content img {
@@ -205,6 +213,7 @@ footer img:nth-child(2):hover {
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   #main_content {
     margin: 0;
+    width: 100%;
   }
 }
 
@@ -212,5 +221,6 @@ footer img:nth-child(2):hover {
 @media only screen and (max-width: 480px){
   #main_content {
     margin: 0;
+    width: 100%;
   }
 }
